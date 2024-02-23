@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Quicksand", sans-serif;
 
@@ -72,5 +75,18 @@ nav {
 }
 
 main {
-  padding: 50px;
+  padding: 30px;
+
+  overflow: auto;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
 }
