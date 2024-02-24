@@ -63,8 +63,13 @@ nav a:hover {
   color: white;
 }
 
+nav ul {
+  padding-inline: 4rem;
+  display: flex;
+}
+
 nav li {
-  display: inline;
+  /* display: inline; */
   list-style-type: none;
   margin-right: 20px;
 }
